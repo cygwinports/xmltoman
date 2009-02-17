@@ -1,0 +1,58 @@
+xmltoman
+------------------------------------------
+xmltoman and xmlmantohtml are two small scripts to convert xml to man 
+pages in groff format or html. It features the usual man page items such 
+a 'description', 'options', 'see also' etc.
+
+Runtime requirements:
+  perl-5.10.0-5
+
+Build requirements:
+  cygport-0.4.3-1
+  make-3.81-2
+  perl-5.10.0-5
+
+Canonical website:
+  http://sourceforge.net/projects/xmltoman/
+
+Canonical download:
+  http://downloads.sourceforge.net/xmltoman/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xmltoman-0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xmltoman-0.4-X.cygport all
+
+This will create:
+  /usr/src/xmltoman-0.4-X-src.tar.bz2
+  /usr/src/xmltoman-0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/xmlmantohtml
+  /usr/bin/xmltoman
+  /usr/share/doc/xmltoman-0.4/COPYING
+  /usr/share/doc/xmltoman-0.4/ChangeLog
+  /usr/share/doc/xmltoman-0.4/README
+  /usr/share/man/man1/xmlmantohtml.1.gz
+  /usr/share/man/man1/xmltoman.1.gz
+  /usr/share/xmltoman/xmltoman.css
+  /usr/share/xmltoman/xmltoman.dtd
+  /usr/share/xmltoman/xmltoman.xsl
+
+------------------
+
+Port Notes:
+
+----- version 0.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
