@@ -9,6 +9,8 @@ such as 'description', 'options', 'see also', etc."
 HOMEPAGE="http://sourceforge.net/projects/xmltoman/"
 SRC_URI="mirror://sourceforge/xmltoman/${NAME}-${VERSION}.tar.gz"
 
+ARCH=noarch
+
 MAKEOPTS+=" PREFIX=/usr"
 
 src_compile() {
